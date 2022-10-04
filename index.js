@@ -16,7 +16,7 @@ import { router } from './router/homeRouter.js'
 const app = express();
 const PORT = process.env.PORT;
 
-//dirname
+//__dirname
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 

@@ -8,9 +8,9 @@ let fechaData = dia.toLocaleDateString();
 
 
 //formulario para llenar las tareas
-export const home = (req, res) => {
+/* export const home = (req, res) => {
     res.send('<h1>Mi App de Tareas</h1>')
-}
+} */
 
 export const formTarea = (req, res) => {
     res.render('agregarTareas')
